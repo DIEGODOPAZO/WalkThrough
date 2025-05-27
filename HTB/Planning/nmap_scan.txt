@@ -1,0 +1,26 @@
+# Nmap 7.95 scan initiated Sun May 25 22:54:54 2025 as: /usr/lib/nmap/nmap --privileged -p 1-1024 -sV -A -o nmap_scan.txt 10.10.11.68
+Nmap scan report for 10.10.11.68
+Host is up (0.10s latency).
+Not shown: 1022 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 9.6p1 Ubuntu 3ubuntu13.11 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   256 62:ff:f6:d4:57:88:05:ad:f4:d3:de:5b:9b:f8:50:f1 (ECDSA)
+|_  256 4c:ce:7d:5c:fb:2d:a0:9e:9f:bd:f5:5c:5e:61:50:8a (ED25519)
+80/tcp open  http    nginx 1.24.0 (Ubuntu)
+|_http-title: Did not follow redirect to http://planning.htb/
+|_http-server-header: nginx/1.24.0 (Ubuntu)
+Device type: general purpose|router
+Running: Linux 5.X, MikroTik RouterOS 7.X
+OS CPE: cpe:/o:linux:linux_kernel:5 cpe:/o:mikrotik:routeros:7 cpe:/o:linux:linux_kernel:5.6.3
+OS details: Linux 5.0 - 5.14, MikroTik RouterOS 7.2 - 7.5 (Linux 5.6.3)
+Network Distance: 2 hops
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using port 110/tcp)
+HOP RTT       ADDRESS
+1   433.91 ms 10.10.14.1
+2   440.59 ms 10.10.11.68
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun May 25 22:55:13 2025 -- 1 IP address (1 host up) scanned in 18.79 seconds

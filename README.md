@@ -15,11 +15,12 @@ The goal of this repository is to document the CTF challenges I’ve completed, 
 
 Each challenge has its own folder, structured as follows:
 
-challenge-name/
-- walkthrough.md # Detailed explanation of the steps to solve the challenge
-- screenshots/ # Images or evidence related to the walkthrough
-- exploits/ # Custom scripts or payloads used
-- notes.txt # Any quick notes, observations, or alternative methods
+Platform of the challenge/
+- challenge-name/
+    - walkthrough.md # Detailed explanation of the steps to solve the challenge
+    - screenshots/ # Images or evidence related to the walkthrough
+    - exploits/ # Custom scripts or payloads used
+    - notes.txt # Any quick notes, observations, or alternative methods
 
 
 > _Note: Not all folders will include every file type; it depends on the challenge._
@@ -41,7 +42,7 @@ Throughout the challenges, I use a variety of tools and concepts, including:
 
 Most of the challenges come from:
 
-- [Hack The Box](https://www.hackthebox.com/)
+- [Hack The Box](https://www.hackthebox.com/) (HTB)
 
 ---
 
