@@ -19,7 +19,7 @@ Platform of the challenge/
 - challenge-name/
     - walkthrough.md # Detailed explanation of the steps to solve the challenge
     - screenshots/ # Images or evidence related to the walkthrough
-    - exploits/ # Custom scripts or payloads used
+    - scripts/ # Custom scripts or payloads used
     - notes.txt # Any quick notes, observations, or alternative methods
 
 
