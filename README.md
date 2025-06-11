@@ -43,6 +43,7 @@ Throughout the challenges, I use a variety of tools and concepts, including:
 Most of the challenges come from:
 
 - [Hack The Box](https://www.hackthebox.com/) (HTB)
+- [TryHackMe](https://tryhackme.com/) (THM)
 
 ---
 
