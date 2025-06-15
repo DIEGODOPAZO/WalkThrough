@@ -1,0 +1,5 @@
+uploads                 [Status: 301, Size: 316, Words: 20, Lines: 10, Duration: 45ms]
+css                     [Status: 301, Size: 312, Words: 20, Lines: 10, Duration: 44ms]
+js                      [Status: 301, Size: 311, Words: 20, Lines: 10, Duration: 54ms]
+panel                   [Status: 301, Size: 314, Words: 20, Lines: 10, Duration: 51ms]
+                        [Status: 200, Size: 616, Words: 115, Lines: 26, Duration: 255ms]
