@@ -17,7 +17,7 @@ Each challenge has its own folder, structured as follows:
 
 Platform of the challenge/
 - challenge-name/
-    - walkthrough.md # Detailed explanation of the steps to solve the challenge
+    - README.md # Detailed explanation of the steps to solve the challenge
     - screenshots/ # Images or evidence related to the walkthrough
     - scripts/ # Custom scripts or payloads used
     - notes.txt # Any quick notes, observations, or alternative methods
